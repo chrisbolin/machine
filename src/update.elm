@@ -18,4 +18,4 @@ update msg model =
 
 interate : Model -> Model
 interate model =
-    model
+    { model | t = model.t + 1 }
