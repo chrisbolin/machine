@@ -14,9 +14,9 @@ import Svg.Attributes
         )
 import Model exposing (Model)
 import Msg exposing (Msg)
-import Design exposing (design)
+import One exposing (design)
 
 
 view : Model -> Html Msg
 view model =
-    svg [ id "main-canvas", viewBox "0 0 100 100", width "100%" ] (design model)
+    svg [ id "main-canvas", viewBox "0 0 100 100" ] (design model)

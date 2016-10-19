@@ -1,4 +1,4 @@
-module Design exposing (design)
+module One exposing (design)
 
 import List exposing (concat, repeat, indexedMap)
 import Svg exposing (Svg, svg, circle, rect, g)
